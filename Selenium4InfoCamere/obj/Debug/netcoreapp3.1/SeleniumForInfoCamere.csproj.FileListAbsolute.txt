@@ -7,3 +7,12 @@ C:\Users\freak\source\repos\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\Selenium
 C:\Users\freak\source\repos\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.csproj.CoreCompileInputs.cache
 C:\Users\freak\source\repos\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.dll
 C:\Users\freak\source\repos\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.pdb
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\bin\Debug\netcoreapp3.1\SeleniumForInfoCamere.deps.json
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\bin\Debug\netcoreapp3.1\SeleniumForInfoCamere.dll
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\bin\Debug\netcoreapp3.1\SeleniumForInfoCamere.pdb
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.csprojAssemblyReference.cache
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.AssemblyInfoInputs.cache
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.AssemblyInfo.cs
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.csproj.CoreCompileInputs.cache
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.dll
+C:\Users\freak\source\repos\SeleniumInfoCamere\Selenium4InfoCamere\obj\Debug\netcoreapp3.1\SeleniumForInfoCamere.pdb
