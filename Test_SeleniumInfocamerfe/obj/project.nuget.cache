@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "B9U60eCR/R9G+Ff0FCRAqGqdQHlOE80vEPXKXLOQaYG5jSXtaKrQEPUt274EabwmiA6Y5+d5LUy0iP1oOkclOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\freak\\source\\repos\\SeleniumInfoCamere\\Test_SeleniumInfocamerfe\\Test_SeleniumInfocamerfe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\freak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
+    "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.5400\\selenium.webdriver.chromedriver.95.0.4638.5400.nupkg.sha512"
+  ],
+  "logs": []
+}

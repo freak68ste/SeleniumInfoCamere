@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oirPrrKoZ0Dbap+G1Vh9rUOLDKu8sO2iJE3yUsJ+39Qy9d+7tF92qXNNaVpnOHX5fORljCd2Ltxr4XU7AC2TbA==",
+  "dgSpecHash": "E4X33XkDKwZ23z06+4JvK2QaV1OTLPoxXMkVIYyGaXfCkXYKKi/dLWDhyyPn25jBI/I5p15lJWaHTG1+KP2HXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\freak\\source\\repos\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
+  "projectFilePath": "C:\\Users\\freak\\source\\repos\\SeleniumInfoCamere\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\freak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",

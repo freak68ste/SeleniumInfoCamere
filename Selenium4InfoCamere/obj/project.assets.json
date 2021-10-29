@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\freak\\source\\repos\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
+      "projectUniqueName": "C:\\Users\\freak\\source\\repos\\SeleniumInfoCamere\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
       "projectName": "SeleniumForInfoCamere",
-      "projectPath": "C:\\Users\\freak\\source\\repos\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
+      "projectPath": "C:\\Users\\freak\\source\\repos\\SeleniumInfoCamere\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
       "packagesPath": "C:\\Users\\freak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\freak\\source\\repos\\Selenium4InfoCamere\\obj\\",
+      "outputPath": "C:\\Users\\freak\\source\\repos\\SeleniumInfoCamere\\Selenium4InfoCamere\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\freak\\AppData\\Roaming\\NuGet\\NuGet.Config",
