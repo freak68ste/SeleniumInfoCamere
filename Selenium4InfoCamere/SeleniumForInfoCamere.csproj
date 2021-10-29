@@ -5,13 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="95.0.4638.5400" />
+    <Compile Remove="Downloads\**" />
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Downloads\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="Downloads\**" />
+    <None Remove="NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Downloads\" />
-    <Folder Include="NewFolder\" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="95.0.4638.5400" />
   </ItemGroup>
 
 </Project>
