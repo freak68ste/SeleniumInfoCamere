@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.0.1, )"
@@ -47,6 +51,18 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[95.0.4638.5400, )"
+            },
+            "Selenium.WebDriver.WaitExtensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "WebDriverWaitExtensions": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             }
           },
           "imports": [
