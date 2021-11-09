@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "E4X33XkDKwZ23z06+4JvK2QaV1OTLPoxXMkVIYyGaXfCkXYKKi/dLWDhyyPn25jBI/I5p15lJWaHTG1+KP2HXg==",
+  "dgSpecHash": "zIJdHKlwe+0AYXpxVmsgvqsAjsDVe/mM9ODxF4ldhMCO+gSIKUj4PBMBnJkJLBj0cVxeEUKeBziEDQbr70169Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\freak\\source\\repos\\SeleniumInfoCamere\\Selenium4InfoCamere\\SeleniumForInfoCamere.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\freak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\freak\\.nuget\\packages\\selenium.support\\4.0.1\\selenium.support.4.0.1.nupkg.sha512",
     "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512",
-    "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.5400\\selenium.webdriver.chromedriver.95.0.4638.5400.nupkg.sha512"
+    "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver.chromedriver\\95.0.4638.5400\\selenium.webdriver.chromedriver.95.0.4638.5400.nupkg.sha512",
+    "C:\\Users\\freak\\.nuget\\packages\\selenium.webdriver.waitextensions\\2.0.0\\selenium.webdriver.waitextensions.2.0.0.nupkg.sha512",
+    "C:\\Users\\freak\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512",
+    "C:\\Users\\freak\\.nuget\\packages\\webdriverwaitextensions\\2.0.2\\webdriverwaitextensions.2.0.2.nupkg.sha512"
   ],
   "logs": []
 }

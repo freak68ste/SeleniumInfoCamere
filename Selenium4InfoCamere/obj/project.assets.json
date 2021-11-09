@@ -11,6 +11,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Selenium.Support/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriver.Support.dll": {}
+        }
+      },
       "Selenium.WebDriver/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -27,6 +39,43 @@
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.WaitExtensions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Selenium.WebDriver.WaitExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Selenium.WebDriver.WaitExtensions.dll": {}
+        }
+      },
+      "SeleniumExtras.WaitHelpers/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-beta2"
+        },
+        "compile": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
+      "WebDriverWaitExtensions/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriverWaitExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriverWaitExtensions.dll": {}
         }
       }
     }
@@ -61,6 +110,25 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Selenium.Support/4.0.1": {
+      "sha512": "etpyAuRCvraAyfoH1D4V83UJbgeqUZzGNkPV8oGBNPFC/sIelIW4cAMp8mRY34qD4l1D5pIY8ssy5XVSvIl2tg==",
+      "type": "package",
+      "path": "selenium.support/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net46/WebDriver.Support.dll",
+        "lib/net47/WebDriver.Support.dll",
+        "lib/net48/WebDriver.Support.dll",
+        "lib/net5.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.1/WebDriver.Support.dll",
+        "selenium.support.4.0.1.nupkg.sha512",
+        "selenium.support.nuspec"
       ]
     },
     "Selenium.WebDriver/4.0.1": {
@@ -99,12 +167,55 @@
         "selenium.webdriver.chromedriver.95.0.4638.5400.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
+    },
+    "Selenium.WebDriver.WaitExtensions/2.0.0": {
+      "sha512": "ktDBjrUa45IuPNvbYsLALZjLJE26Nj17gdO9sk5whUWsszwRspNbiBMqmCfQwBwGRjZzrw15IriypnX4oIS0HA==",
+      "type": "package",
+      "path": "selenium.webdriver.waitextensions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Selenium.WebDriver.WaitExtensions.dll",
+        "selenium.webdriver.waitextensions.2.0.0.nupkg.sha512",
+        "selenium.webdriver.waitextensions.nuspec"
+      ]
+    },
+    "SeleniumExtras.WaitHelpers/1.0.2": {
+      "sha512": "de7m30nkZZLkfCncYBdluUpM27AR/Vkk4kiA4HRQbV+fZI3ps4qGIeJCuj8TAMXdMfQik5Rno8xPnFBIod+ebg==",
+      "type": "package",
+      "path": "seleniumextras.waithelpers/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll",
+        "seleniumextras.waithelpers.1.0.2.nupkg.sha512",
+        "seleniumextras.waithelpers.nuspec"
+      ]
+    },
+    "WebDriverWaitExtensions/2.0.2": {
+      "sha512": "YVXHVERSOqkz8jcNgjfmuUQSrUyZUcGN69QRui+0pFyb+b5OBsKLbo+xuPYv11FExa1bEWH1h6zFybntsC2vZw==",
+      "type": "package",
+      "path": "webdriverwaitextensions/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/WebDriverWaitExtensions.dll",
+        "lib/netstandard2.0/WebDriverWaitExtensions.dll",
+        "webdriverwaitextensions.2.0.2.nupkg.sha512",
+        "webdriverwaitextensions.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Selenium.Support >= 4.0.1",
       "Selenium.WebDriver >= 4.0.1",
-      "Selenium.WebDriver.ChromeDriver >= 95.0.4638.5400"
+      "Selenium.WebDriver.ChromeDriver >= 95.0.4638.5400",
+      "Selenium.WebDriver.WaitExtensions >= 2.0.0",
+      "SeleniumExtras.WaitHelpers >= 1.0.2",
+      "WebDriverWaitExtensions >= 2.0.2"
     ]
   },
   "packageFolders": {
@@ -146,6 +257,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.0.1, )"
@@ -153,6 +268,18 @@
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
             "version": "[95.0.4638.5400, )"
+          },
+          "Selenium.WebDriver.WaitExtensions": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "SeleniumExtras.WaitHelpers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "WebDriverWaitExtensions": {
+            "target": "Package",
+            "version": "[2.0.2, )"
           }
         },
         "imports": [

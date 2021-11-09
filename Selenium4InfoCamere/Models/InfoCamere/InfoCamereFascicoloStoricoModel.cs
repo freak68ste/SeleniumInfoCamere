@@ -14,6 +14,7 @@ namespace SeleniumForInfoCamere.Models.InfoCamere
 
         public string CodiceRea { get; set; }
         public string CodiceFiscale { get; set; }
+        public string Provincia { get; set; }
         public TypeSearch TypeSearch { get; set; }
     }
 }

@@ -6,16 +6,17 @@
 
   <ItemGroup>
     <Compile Remove="Downloads\**" />
-    <Compile Remove="NewFolder\**" />
     <EmbeddedResource Remove="Downloads\**" />
-    <EmbeddedResource Remove="NewFolder\**" />
     <None Remove="Downloads\**" />
-    <None Remove="NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Selenium.Support" Version="4.0.1" />
     <PackageReference Include="Selenium.WebDriver" Version="4.0.1" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="95.0.4638.5400" />
+    <PackageReference Include="Selenium.WebDriver.WaitExtensions" Version="2.0.0" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+    <PackageReference Include="WebDriverWaitExtensions" Version="2.0.2" />
   </ItemGroup>
 
 </Project>
